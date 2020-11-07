@@ -12,8 +12,8 @@
   <a href="https://github.com/recoveryMonster/webpack-learn/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/recoveryMonster/webpack-lean" />
   </a>
-  <a href="https://twitter.com/learnTech" target="_blank">
-    <img alt="Twitter: learnTech" src="https://img.shields.io/twitter/follow/learnTech.svg?style=social" />
+  <a href="https://twitter.com/learnTech10" target="_blank">
+    <img alt="Twitter: learnTech10" src="https://img.shields.io/twitter/follow/learnTech10.svg?style=social" />
   </a>
 </p>
 
@@ -31,8 +31,7 @@ npm install
 
 👤 **城南花开**
 
-* Website: https://recoverymonster.github.io/
-* Twitter: [@learnTech](https://twitter.com/learnTech)
+* Twitter: [@learnTech10](https://twitter.com/learnTech10)
 * Github: [@recoveryMonster](https://github.com/recoveryMonster)
 
 ## 🤝 Contributing
