@@ -1,0 +1,17 @@
+{
+  "name": "webpack-lean",
+  "version": "0.0.1",
+  "description": "just a webpack learn demo, for improving relevant technical capability",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recoveryMonster/webpack-learn.git"
+  },
+  "keywords": [],
+  "author": "城南花开",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/recoveryMonster/webpack-learn/issues"
+  },
+  "homepage": "https://github.com/recoveryMonster/webpack-learn#readme"
+}
