@@ -1,6 +1,6 @@
 const { resolve } = require('path');
 
-module.exports = ({ mode } = { mode: 'production' }) => {
+module.exports = ({ mode } = { mode: 'development' }) => {
   return {
     mode,
     entry: {
@@ -13,8 +13,13 @@ module.exports = ({ mode } = { mode: 'production' }) => {
     module: {
       rules: [
         {
-          test: /\.css$/,
-          use: ['style-loader', 'css-loader']
+          test: /\.(css|s[a|c]ss)$/,
+          use: [
+            'style-loader',
+            'css-loader',
+            'sass-loader',
+            'postcss-loader',
+          ]
         }
       ]
     }
