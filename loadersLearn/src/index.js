@@ -2,6 +2,7 @@ import './style.css';
 import './header.scss';
 import { createImage } from './image';
 import Icon from './icon.jpg';
+import { createIcon } from './font';
 
 function component () {
   const ele = document.createElement('div');
@@ -22,4 +23,4 @@ function Header () {
   return ele;
 }
 
-document.body.append(Header(), component(), createImage());
+document.body.append(createIcon(), Header(), component(), createImage());

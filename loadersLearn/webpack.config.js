@@ -31,7 +31,13 @@ module.exports = ({ mode } = { mode: 'development' }) => {
               limit: 102400,
             }
           }
-        }
+        },
+        {
+          test: /\.(woff|woff2|eot|ttf|otf)$/,
+          use: [
+            'url-loader',
+          ],
+        },
       ]
     }
   }
