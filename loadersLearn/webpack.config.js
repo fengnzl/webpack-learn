@@ -43,6 +43,18 @@ module.exports = ({ mode } = { mode: 'development' }) => {
             'url-loader',
           ],
         },
+        {
+          test: /\.(csv|tsv)$/,
+          use: [
+            'csv-loader',
+          ],
+        },
+        {
+          test: /\.xml$/,
+          use: [
+            'xml-loader',
+          ],
+        },
       ]
     }
   }
