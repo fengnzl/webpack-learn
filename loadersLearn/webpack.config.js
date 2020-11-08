@@ -16,7 +16,12 @@ module.exports = ({ mode } = { mode: 'development' }) => {
           test: /\.(css|s[a|c]ss)$/,
           use: [
             'style-loader',
-            'css-loader',
+            {
+              loader: 'css-loader',
+              options: {
+                importLoaders: 2,
+              }
+            },
             'sass-loader',
             'postcss-loader',
           ]
