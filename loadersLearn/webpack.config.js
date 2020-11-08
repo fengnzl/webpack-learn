@@ -20,6 +20,17 @@ module.exports = ({ mode } = { mode: 'development' }) => {
             'sass-loader',
             'postcss-loader',
           ]
+        },
+        {
+          test: /\.(jpe?g|png|gif|svg)/,
+          use: {
+            loader: 'url-loader',
+            options: {
+              name: '[name]_[hash:8].[ext]',
+              outputPath: 'assets/',
+              limit: 102400,
+            }
+          }
         }
       ]
     }
