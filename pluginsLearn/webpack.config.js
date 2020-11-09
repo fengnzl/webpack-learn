@@ -7,11 +7,14 @@ const webpack = require('webpack');
 module.exports = ({ mode } = { mode: 'development' }) => ({
   mode,
   entry: {
-    main: resolve(__dirname, 'src/index')
+    main: resolve(__dirname, 'src/index'),// 键名默认表示打包对应的文件名
+    sub: resolve(__dirname, 'src/index'), // 打包生成sub的文件名
   },
   output: {
     path: resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    // filename: 'bundle.js' // 如果多入口打包指定同一个打包名称,则只会打包出一个，webpack4版本会报错
+    filename: '[name]_[hash:8].js',
+    // publicPath: 'http://cdn.com.cn', // 设置静态资源配置目录前缀
   },
   module: {
     rules: [
