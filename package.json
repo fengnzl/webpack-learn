@@ -13,5 +13,6 @@
   "bugs": {
     "url": "https://github.com/recoveryMonster/webpack-learn/issues"
   },
-  "homepage": "https://github.com/recoveryMonster/webpack-learn#readme"
+  "homepage": "https://github.com/recoveryMonster/webpack-learn#readme",
+  "devDependencies": {}
 }

@@ -6,6 +6,7 @@ const webpack = require('webpack');
 
 module.exports = ({ mode } = { mode: 'development' }) => ({
   mode,
+  devtool: 'none',
   entry: {
     main: resolve(__dirname, 'src/index'),// 键名默认表示打包对应的文件名
     sub: resolve(__dirname, 'src/index'), // 打包生成sub的文件名
