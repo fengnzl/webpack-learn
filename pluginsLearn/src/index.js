@@ -8,4 +8,4 @@ function createDiv () {
   return ele;
 }
 
-document.body.append(createDiv());
+document.querySelector('#app').append(createDiv());

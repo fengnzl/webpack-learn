@@ -29,5 +29,9 @@ module.exports = ({ mode } = { mode: 'development' }) => ({
       }
     ]
   },
-  plugins: [new HtmlWebpackPlugin()]
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: resolve(__dirname, 'src/index.html'), // 设置打包的html模版，在打包之后将打包文件注入到html文件中
+    })
+  ]
 })
