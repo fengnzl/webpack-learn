@@ -12,6 +12,8 @@ module.exports = merge(commonConfig, {
     contentBase: paths.dist,
     open: true,
     compress: true,
+    hot: true,
+    hotOnly: true, // 只有hmr生效，浏览器才刷新
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
