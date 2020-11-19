@@ -8,7 +8,8 @@ module.exports = {
 
   output: {
     path: paths.dist,
-    filename: '[name].bundle.js'
+    filename: '[name].bundle.js',
+    publicPath: '/', // 所有打包文件引用之间都加上根路径
   },
 
   plugins: [
