@@ -11,12 +11,23 @@ module.exports = function (api) {
           safari: 11.1,
         },
         modules: false, //用来指定模块化方式，支持 AMD、UMD、SystemJS、CommonJS 等。推荐将 modules 设置为 false，即交由 Webpack 来处理模块化，通过其 TreeShaking 特性将有效减少打包出来的 JS 文件大小
-        useBuiltIns: "usage", // 只引入使用的polyfill
+        // useBuiltIns: "usage", // 只引入使用的polyfill
       }
     ]
   ]
 
+  const plugins = [
+    [
+      "@babel/plugin-transform-regenerator",
+      {
+        asyncGenerators: false, // 异步生成器
+        generators: false, // 生成器
+        async: false, // 异步
+      }
+    ]
+  ]
   return {
     presets,
+    plugins,
   }
 }

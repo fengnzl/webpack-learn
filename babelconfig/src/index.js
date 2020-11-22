@@ -1,4 +1,7 @@
-import "@babel/polyfill";
+// import "@babel/polyfill";
+import "core-js/es/promise";
+import "core-js/es/array";
+import "regenerator-runtime/runtime";
 const arr = [
   new Promise(() => { }),
   new Promise(() => { })
