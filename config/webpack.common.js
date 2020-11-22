@@ -4,8 +4,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
-  devtool: 'eval-cheap-module-source-map',
   entry: {
     main: `${paths.src}/index`
   },
@@ -17,7 +15,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: `${paths.src}/index.html`,
-      title: 'learn babel config',
+      title: 'learn react config',
       filename: 'index.html', // output file
     }),
     new webpack.ProgressPlugin(),
