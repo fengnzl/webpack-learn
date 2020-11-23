@@ -14,6 +14,9 @@ module.exports = merge(BaseConfig, {
     hot: true,
     port: 8080,
   },
+  optimization: {
+    usedExports: true
+  },
   plugins: [
     new webpack.HotModuleReplacementPlugin()
   ]

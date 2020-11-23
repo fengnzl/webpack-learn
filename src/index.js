@@ -1,10 +1,3 @@
-import React, { Component } from 'react';
-import ReactDom from 'react-dom';
+import { add } from './maths';
 
-class App extends Component {
-  render () {
-    return <div>Hello World</div>
-  }
-}
-
-ReactDom.render(<App></App>, document.getElementById('app'))
+add(2, 3);

@@ -10,12 +10,11 @@ module.exports = {
   output: {
     path: paths.dist,
     filename: '[name].bundle.js',
-    publicPath: '/', // 所有打包文件引用之间都加上根路径
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: `${paths.src}/index.html`,
-      title: 'learn react config',
+      title: 'learn tree shaking',
       filename: 'index.html', // output file
     }),
     new webpack.ProgressPlugin(),
