@@ -1,3 +1,2 @@
-import { add } from './maths';
 
-add(2, 3);
+console.log(_.join([1, 2, 3, 4], '***'));
