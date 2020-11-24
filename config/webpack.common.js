@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    lodash: `${paths.src}/lodash`,
+    // lodash: `${paths.src}/lodash`,
     main: `${paths.src}/index`,
   },
   output: {
@@ -21,6 +21,11 @@ module.exports = {
     new webpack.ProgressPlugin(),
     new CleanWebpackPlugin(),
   ],
+  optimization: {
+    splitChunks: {
+      chunks: 'all'
+    }
+  },
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
