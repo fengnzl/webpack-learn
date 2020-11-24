@@ -21,11 +21,11 @@ module.exports = {
     new webpack.ProgressPlugin(),
     new CleanWebpackPlugin(),
   ],
-  optimization: {
-    splitChunks: {
-      chunks: 'all'
-    }
-  },
+  // optimization: {
+  //   splitChunks: {
+  //     chunks: 'all'
+  //   }
+  // },
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
