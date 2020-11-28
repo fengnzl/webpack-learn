@@ -1,6 +1,6 @@
-// import _ from 'lodash';
+import _ from 'lodash';
 
-// console.log(_.join([1, 2, 3, 4], '***'));
+console.log(_.join([1, 2, 3, 4], '***'));
 
 
 // async function createComponent () {
@@ -19,5 +19,5 @@
 //   document.body.append(element);
 // })
 
-import { test } from './test';
-console.log(test.name);
+// import test from './test';
+// console.log(test.name);

@@ -1,7 +1,3 @@
-const test = {
-  name: 'test',
-}
-
-export {
-  test
+module.exports = {
+  name: 'test'
 }
