@@ -7,7 +7,7 @@
   "scripts": {
     "build": "webpack --config config/webpack.prod.js",
     "start": "webpack serve --config config/webpack.dev.js",
-    "dev:build": "webpack --config config/webpack.dev.js"
+    "dev:build": "webpack --profile --json > stats.json --config config/webpack.dev.js"
   },
   "keywords": [],
   "author": "",
