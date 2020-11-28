@@ -24,8 +24,8 @@ module.exports = {
   ],
   optimization: {
     splitChunks: {
-      chunks: 'all', // 默认代码分割为async异步引入，all则是同步和异步都可以
-      minSize: 20000,
+      chunks: 'all', // 默认代码分割为async异步引入，all则是同步和异步都可以，initial 只对同步起作用
+      minSize: 20000, // 引入库的大小大于设置的值才会进行代码分割
       minRemainingSize: 0,
       maxSize: 0,
       minChunks: 1,
@@ -37,6 +37,7 @@ module.exports = {
         defaultVendors: {
           test: /[\\/]node_modules[\\/]/,
           priority: -10,
+          filename: 'vendor.js',
         },
         default: false
       }
