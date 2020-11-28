@@ -1,5 +1,8 @@
 document.addEventListener('click', () => {
-  import('./appenEle').then(({ getEle }) => {
+  import(/* webpackPrefetch: true */'./appenEle').then(({ getEle }) => {
     getEle();
   })
+  // import(/* webpackPreload: true */'./appenEle').then(({ getEle }) => {
+  //   getEle();
+  // })
 })
