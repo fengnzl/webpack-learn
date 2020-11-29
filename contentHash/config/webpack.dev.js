@@ -39,6 +39,8 @@ const DevConfig = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
+    //减少不需要的信息展示
+    new webpack.NoEmitOnErrorsPlugin()
   ]
 }
 
