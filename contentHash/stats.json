@@ -1,0 +1,3740 @@
+{
+  "hash": "a3ec9e213a92e6126bbd",
+  "version": "5.9.0",
+  "time": 2491,
+  "builtAt": 1606656762018,
+  "publicPath": "auto",
+  "outputPath": "/Users/fengliu/Desktop/webpack-lean/contentHash/dist",
+  "assetsByChunkName": {
+    "main": [
+      "main.bundle.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027.bundle.js",
+      "size": 2287407,
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 2287407
+      },
+      "related": {},
+      "chunks": [
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.bundle.js",
+      "size": 58251,
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 58251
+      },
+      "related": {},
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 375,
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 375
+      },
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 30989,
+      "sizes": {
+        "runtime": 28605,
+        "javascript": 2384
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.bundle.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "30e64266d82a6da23604",
+      "childrenByOrder": {},
+      "id": "main",
+      "siblings": [
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027"
+      ],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "size": 650,
+          "sizes": {
+            "javascript": 650
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 498,
+                "resolving": 49,
+                "restoring": 0,
+                "building": 449,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 49,
+                "dependencies": 0
+              },
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "name": "./src/style.scss",
+              "profile": {
+                "total": 151,
+                "resolving": 11,
+                "restoring": 0,
+                "building": 140,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 11,
+                "dependencies": 0
+              },
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 1176,
+            "resolving": 4,
+            "restoring": 0,
+            "building": 1172,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 3,
+            "additionalIntegration": 0,
+            "factory": 4,
+            "dependencies": 3
+          },
+          "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "2:12-199",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "9:17-24",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "13:7-21",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "45:20-34",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "module.hot.accept",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "47:4-60:5",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony accept",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "49:6-59:7",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "50:38-52",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "56:26-40",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "58:21-28",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "68:15-29",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 7,
+          "postOrderIndex": 7,
+          "size": 161,
+          "sizes": {
+            "javascript": 161
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 498,
+            "resolving": 49,
+            "restoring": 0,
+            "building": 449,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 49,
+            "dependencies": 0
+          },
+          "id": "./src/index.js",
+          "issuerId": null,
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "name": "./src/style.scss",
+          "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "size": 1573,
+          "sizes": {
+            "javascript": 1573
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 498,
+                "resolving": 49,
+                "restoring": 0,
+                "building": 449,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 49,
+                "dependencies": 0
+              },
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 151,
+            "resolving": 11,
+            "restoring": 0,
+            "building": 140,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 11,
+            "dependencies": 0
+          },
+          "id": "./src/style.scss",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./style.scss",
+              "loc": "3:0-22",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 263,
+          "sizes": {
+            "runtime": 263
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/get javascript update chunk filename",
+          "name": "webpack/runtime/get javascript update chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 209,
+          "sizes": {
+            "runtime": 209
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/get update manifest filename",
+          "name": "webpack/runtime/get update manifest filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/getFullHash",
+          "name": "webpack/runtime/getFullHash",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 52,
+          "sizes": {
+            "runtime": 52
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/global",
+          "name": "webpack/runtime/global",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 221,
+          "sizes": {
+            "runtime": 221
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 86,
+          "sizes": {
+            "runtime": 86
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/hot module replacement",
+          "name": "webpack/runtime/hot module replacement",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 8555,
+          "sizes": {
+            "runtime": 8555
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/jsonp chunk loading",
+          "name": "webpack/runtime/jsonp chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 16062,
+          "sizes": {
+            "runtime": 16062
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/load script",
+          "name": "webpack/runtime/load script",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 1497,
+          "sizes": {
+            "runtime": 1497
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/node module decorator",
+          "name": "webpack/runtime/node module decorator",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 123,
+          "sizes": {
+            "runtime": 123
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 867,
+          "sizes": {
+            "runtime": 867
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 840891,
+      "sizes": {
+        "javascript": 840891
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027.bundle.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "2cc1f707b5ab2714628e",
+      "childrenByOrder": {},
+      "id": "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027",
+      "siblings": [
+        "main"
+      ],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/api.js",
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "size": 1605,
+          "sizes": {
+            "javascript": 1605
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 498,
+                "resolving": 49,
+                "restoring": 0,
+                "building": 449,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 49,
+                "dependencies": 0
+              },
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "name": "./src/style.scss",
+              "profile": {
+                "total": 151,
+                "resolving": 11,
+                "restoring": 0,
+                "building": 140,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 11,
+                "dependencies": 0
+              },
+              "id": "./src/style.scss"
+            },
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "profile": {
+                "total": 1176,
+                "resolving": 4,
+                "restoring": 0,
+                "building": 1172,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 3,
+                "additionalIntegration": 0,
+                "factory": 4,
+                "dependencies": 3
+              },
+              "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "chunks": [
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "3:0-89",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "4:30-57",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/api.js",
+              "module": "./node_modules/css-loader/dist/runtime/api.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "9:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 9:0-14"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "name": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "size": 2266,
+          "sizes": {
+            "javascript": 2266
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 498,
+                "resolving": 49,
+                "restoring": 0,
+                "building": 449,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 49,
+                "dependencies": 0
+              },
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "name": "./src/style.scss",
+              "profile": {
+                "total": 151,
+                "resolving": 11,
+                "restoring": 0,
+                "building": 140,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 11,
+                "dependencies": 0
+              },
+              "id": "./src/style.scss"
+            },
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "profile": {
+                "total": 1176,
+                "resolving": 4,
+                "restoring": 0,
+                "building": 1172,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 3,
+                "additionalIntegration": 0,
+                "factory": 4,
+                "dependencies": 3
+              },
+              "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "chunks": [
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "loc": "2:0-118",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "loc": "4:58-95",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "module": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "15:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 15:0-14"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+          "name": "./node_modules/jquery/dist/jquery.js",
+          "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 287630,
+          "sizes": {
+            "javascript": 287630
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 498,
+                "resolving": 49,
+                "restoring": 0,
+                "building": 449,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 49,
+                "dependencies": 0
+              },
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/jquery/dist/jquery.js",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "jquery",
+              "loc": "2:0-23",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "jquery",
+              "loc": "4:12-13",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "jquery",
+              "loc": "6:0-1",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+              "module": "./node_modules/jquery/dist/jquery.js",
+              "moduleName": "./node_modules/jquery/dist/jquery.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+              "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "18:43-57",
+              "moduleId": "./node_modules/jquery/dist/jquery.js",
+              "resolvedModuleId": "./node_modules/jquery/dist/jquery.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+              "module": "./node_modules/jquery/dist/jquery.js",
+              "moduleName": "./node_modules/jquery/dist/jquery.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+              "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "27:2-16",
+              "moduleId": "./node_modules/jquery/dist/jquery.js",
+              "resolvedModuleId": "./node_modules/jquery/dist/jquery.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+              "module": "./node_modules/jquery/dist/jquery.js",
+              "moduleName": "./node_modules/jquery/dist/jquery.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+              "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "40:46-50",
+              "moduleId": "./node_modules/jquery/dist/jquery.js",
+              "resolvedModuleId": "./node_modules/jquery/dist/jquery.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 40:46-50",
+            "CommonJS bailout: module.exports is used directly at 18:43-57",
+            "CommonJS bailout: module.exports is used directly at 27:2-16"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "name": "./node_modules/lodash/lodash.js",
+          "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 542563,
+          "sizes": {
+            "javascript": 542563
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 498,
+                "resolving": 49,
+                "restoring": 0,
+                "building": 449,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 49,
+                "dependencies": 0
+              },
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/lodash/lodash.js",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash",
+              "loc": "1:0-23",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash",
+              "loc": "5:9-15",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "425:50-57",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "425:62-78",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "425:82-89",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "428:63-69",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "428:74-80",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "428:93-99",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "17161:7-11",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 17161:7-11",
+            "CommonJS bailout: exports is used directly at 425:50-57",
+            "CommonJS bailout: exports is used directly at 425:82-89"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "size": 6827,
+          "sizes": {
+            "javascript": 6827
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 498,
+                "resolving": 49,
+                "restoring": 0,
+                "building": 449,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 49,
+                "dependencies": 0
+              },
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "name": "./src/style.scss",
+              "profile": {
+                "total": 151,
+                "resolving": 11,
+                "restoring": 0,
+                "building": 140,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 11,
+                "dependencies": 0
+              },
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "loc": "1:0-89",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "loc": "9:13-16",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "230:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 230:0-14"
+          ],
+          "depth": 2
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+      "name": "./src/index.js",
+      "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 7,
+      "postOrderIndex": 7,
+      "size": 161,
+      "sizes": {
+        "javascript": 161
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 498,
+        "resolving": 49,
+        "restoring": 0,
+        "building": 449,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 49,
+        "dependencies": 0
+      },
+      "id": "./src/index.js",
+      "issuerId": null,
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+      "name": "./node_modules/lodash/lodash.js",
+      "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "size": 542563,
+      "sizes": {
+        "javascript": 542563
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 498,
+            "resolving": 49,
+            "restoring": 0,
+            "building": 449,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 49,
+            "dependencies": 0
+          },
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 0,
+        "resolving": 0,
+        "restoring": 0,
+        "building": 0,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 0,
+        "dependencies": 0
+      },
+      "id": "./node_modules/lodash/lodash.js",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash",
+          "loc": "1:0-23",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash",
+          "loc": "5:9-15",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "425:50-57",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "425:62-78",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "425:82-89",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "428:63-69",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "428:74-80",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "428:93-99",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "17161:7-11",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 17161:7-11",
+        "CommonJS bailout: exports is used directly at 425:50-57",
+        "CommonJS bailout: exports is used directly at 425:82-89"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+      "name": "./node_modules/jquery/dist/jquery.js",
+      "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "size": 287630,
+      "sizes": {
+        "javascript": 287630
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 498,
+            "resolving": 49,
+            "restoring": 0,
+            "building": 449,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 49,
+            "dependencies": 0
+          },
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 0,
+        "resolving": 0,
+        "restoring": 0,
+        "building": 0,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 0,
+        "dependencies": 0
+      },
+      "id": "./node_modules/jquery/dist/jquery.js",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "jquery",
+          "loc": "2:0-23",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "jquery",
+          "loc": "4:12-13",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "jquery",
+          "loc": "6:0-1",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+          "module": "./node_modules/jquery/dist/jquery.js",
+          "moduleName": "./node_modules/jquery/dist/jquery.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+          "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "18:43-57",
+          "moduleId": "./node_modules/jquery/dist/jquery.js",
+          "resolvedModuleId": "./node_modules/jquery/dist/jquery.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+          "module": "./node_modules/jquery/dist/jquery.js",
+          "moduleName": "./node_modules/jquery/dist/jquery.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+          "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "27:2-16",
+          "moduleId": "./node_modules/jquery/dist/jquery.js",
+          "resolvedModuleId": "./node_modules/jquery/dist/jquery.js"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+          "module": "./node_modules/jquery/dist/jquery.js",
+          "moduleName": "./node_modules/jquery/dist/jquery.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/jquery/dist/jquery.js",
+          "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "40:46-50",
+          "moduleId": "./node_modules/jquery/dist/jquery.js",
+          "resolvedModuleId": "./node_modules/jquery/dist/jquery.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 40:46-50",
+        "CommonJS bailout: module.exports is used directly at 18:43-57",
+        "CommonJS bailout: module.exports is used directly at 27:2-16"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+      "name": "./src/style.scss",
+      "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "size": 1573,
+      "sizes": {
+        "javascript": 1573
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 498,
+            "resolving": 49,
+            "restoring": 0,
+            "building": 449,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 49,
+            "dependencies": 0
+          },
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 151,
+        "resolving": 11,
+        "restoring": 0,
+        "building": 140,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 11,
+        "dependencies": 0
+      },
+      "id": "./src/style.scss",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./style.scss",
+          "loc": "3:0-22",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "size": 6827,
+      "sizes": {
+        "javascript": 6827
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 498,
+            "resolving": 49,
+            "restoring": 0,
+            "building": 449,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 49,
+            "dependencies": 0
+          },
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "name": "./src/style.scss",
+          "profile": {
+            "total": 151,
+            "resolving": 11,
+            "restoring": 0,
+            "building": 140,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 11,
+            "dependencies": 0
+          },
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 0,
+        "resolving": 0,
+        "restoring": 0,
+        "building": 0,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 0,
+        "dependencies": 0
+      },
+      "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "1:0-89",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "9:13-16",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "230:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 230:0-14"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "size": 650,
+      "sizes": {
+        "javascript": 650
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 498,
+            "resolving": 49,
+            "restoring": 0,
+            "building": 449,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 49,
+            "dependencies": 0
+          },
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "name": "./src/style.scss",
+          "profile": {
+            "total": 151,
+            "resolving": 11,
+            "restoring": 0,
+            "building": 140,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 11,
+            "dependencies": 0
+          },
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 1176,
+        "resolving": 4,
+        "restoring": 0,
+        "building": 1172,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 3,
+        "additionalIntegration": 0,
+        "factory": 4,
+        "dependencies": 3
+      },
+      "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "2:12-199",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "9:17-24",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "13:7-21",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "45:20-34",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "module.hot.accept",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "47:4-60:5",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony accept",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "49:6-59:7",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "50:38-52",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "56:26-40",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "58:21-28",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/postcss-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "68:15-29",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+      "name": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+      "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "size": 2266,
+      "sizes": {
+        "javascript": 2266
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 498,
+            "resolving": 49,
+            "restoring": 0,
+            "building": 449,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 49,
+            "dependencies": 0
+          },
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "name": "./src/style.scss",
+          "profile": {
+            "total": 151,
+            "resolving": 11,
+            "restoring": 0,
+            "building": 140,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 11,
+            "dependencies": 0
+          },
+          "id": "./src/style.scss"
+        },
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "profile": {
+            "total": 1176,
+            "resolving": 4,
+            "restoring": 0,
+            "building": 1172,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 3,
+            "additionalIntegration": 0,
+            "factory": 4,
+            "dependencies": 3
+          },
+          "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 0,
+        "resolving": 0,
+        "restoring": 0,
+        "building": 0,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 0,
+        "dependencies": 0
+      },
+      "id": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "chunks": [
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "loc": "2:0-118",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "loc": "4:58-95",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "module": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "15:0-14",
+          "moduleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 15:0-14"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/api.js",
+      "index": 7,
+      "preOrderIndex": 7,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "size": 1605,
+      "sizes": {
+        "javascript": 1605
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/babel-loader/lib/index.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 498,
+            "resolving": 49,
+            "restoring": 0,
+            "building": 449,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 49,
+            "dependencies": 0
+          },
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/style-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "name": "./src/style.scss",
+          "profile": {
+            "total": 151,
+            "resolving": 11,
+            "restoring": 0,
+            "building": 140,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 11,
+            "dependencies": 0
+          },
+          "id": "./src/style.scss"
+        },
+        {
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "profile": {
+            "total": 1176,
+            "resolving": 4,
+            "restoring": 0,
+            "building": 1172,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 3,
+            "additionalIntegration": 0,
+            "factory": 4,
+            "dependencies": 3
+          },
+          "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 0,
+        "resolving": 0,
+        "restoring": 0,
+        "building": 0,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 0,
+        "dependencies": 0
+      },
+      "id": "./node_modules/css-loader/dist/runtime/api.js",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "chunks": [
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "3:0-89",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/postcss-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/sass-loader/dist/cjs.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/style.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "4:30-57",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/api.js",
+          "module": "./node_modules/css-loader/dist/runtime/api.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "9:0-14",
+          "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 9:0-14"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 263,
+      "sizes": {
+        "runtime": 263
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/get javascript update chunk filename",
+      "name": "webpack/runtime/get javascript update chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 209,
+      "sizes": {
+        "runtime": 209
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/get update manifest filename",
+      "name": "webpack/runtime/get update manifest filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/getFullHash",
+      "name": "webpack/runtime/getFullHash",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 52,
+      "sizes": {
+        "runtime": 52
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 86,
+      "sizes": {
+        "runtime": 86
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/hot module replacement",
+      "name": "webpack/runtime/hot module replacement",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 8555,
+      "sizes": {
+        "runtime": 8555
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 16062,
+      "sizes": {
+        "runtime": 16062
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/load script",
+      "name": "webpack/runtime/load script",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 1497,
+      "sizes": {
+        "runtime": 1497
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/node module decorator",
+      "name": "webpack/runtime/node module decorator",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 123,
+      "sizes": {
+        "runtime": 123
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 867,
+      "sizes": {
+        "runtime": 867
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027",
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027.bundle.js",
+          "size": 2287407
+        },
+        {
+          "name": "main.bundle.js",
+          "size": 58251
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 2345658,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027",
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-016027.bundle.js",
+          "size": 2287407
+        },
+        {
+          "name": "main.bundle.js",
+          "size": 58251
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 2345658,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "023583be2bae5aab2b9f",
+      "version": "5.9.0",
+      "time": 167,
+      "builtAt": 1606656759726,
+      "publicPath": "auto",
+      "outputPath": "/Users/fengliu/Desktop/webpack-lean/contentHash/dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": [
+          "__child-HtmlWebpackPlugin_0"
+        ]
+      },
+      "assets": [
+        {
+          "type": "asset",
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 4250,
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "javascriptModule": false
+          },
+          "related": {},
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 524,
+          "sizes": {
+            "javascript": 524
+          },
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "auxiliaryFiles": [],
+          "hash": "18a107f6a47ffce5ffe4",
+          "childrenByOrder": {},
+          "id": "HtmlWebpackPlugin_0",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/html-webpack-plugin/lib/loader.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.html",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "size": 524,
+              "sizes": {
+                "javascript": 524
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 0,
+                "resolving": 0,
+                "restoring": 0,
+                "building": 0,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 0,
+                "dependencies": 0
+              },
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "issuerId": null,
+              "chunks": [
+                "HtmlWebpackPlugin_0"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/html-webpack-plugin/lib/loader.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/html-webpack-plugin/lib/loader.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "1:113-127",
+                  "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html"
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/html-webpack-plugin/lib/loader.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.html",
+                  "loc": "HtmlWebpackPlugin_0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 1:113-127"
+              ],
+              "depth": 0
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/html-webpack-plugin/lib/loader.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.html"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/html-webpack-plugin/lib/loader.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "nameForCondition": "/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.html",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 524,
+          "sizes": {
+            "javascript": 524
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/html-webpack-plugin/lib/loader.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "resolvedModuleIdentifier": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/html-webpack-plugin/lib/loader.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:113-127",
+              "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html"
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/fengliu/Desktop/webpack-lean/contentHash/node_modules/html-webpack-plugin/lib/loader.js!/Users/fengliu/Desktop/webpack-lean/contentHash/src/index.html",
+              "loc": "HtmlWebpackPlugin_0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:113-127"
+          ],
+          "depth": 0
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "name": "HtmlWebpackPlugin_0",
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            {
+              "name": "__child-HtmlWebpackPlugin_0"
+            }
+          ],
+          "filteredAssets": 0,
+          "assetsSize": null,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "name": "HtmlWebpackPlugin_0",
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            {
+              "name": "__child-HtmlWebpackPlugin_0"
+            }
+          ],
+          "filteredAssets": 0,
+          "assetsSize": null,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
