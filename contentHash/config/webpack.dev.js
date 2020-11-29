@@ -14,6 +14,14 @@ const DevConfig = {
   module: {
     rules: [
       {
+        test: `${paths.src}/index.js`,
+        use: [
+          'babel-loader',
+          'imports-loader?wrapper=window',
+        ]
+
+      },
+      {
         test: /\.scss|css$/,
         use: [
           'style-loader',

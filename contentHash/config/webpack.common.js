@@ -23,6 +23,9 @@ const BaseConfig = {
   ],
   optimization: {
     usedExports: true,
+    splitChunks: {
+      chunks: 'all',
+    }
   },
 }
 module.exports = BaseConfig;
