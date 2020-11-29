@@ -5,13 +5,12 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    // lodash: `${paths.src}/lodash`,
     main: `${paths.src}/index`,
   },
   output: {
     path: paths.dist,
     filename: '[name]_bundle.js',
-    // chunkFilename: '[name].js'
+    chunkFilename: '[name]_chunk.js',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -23,6 +22,7 @@ module.exports = {
     new CleanWebpackPlugin(),
   ],
   optimization: {
+    usedExports: true,
     splitChunks: {
       chunks: 'async', // 默认代码分割为async异步引入，all则是同步和
     }
