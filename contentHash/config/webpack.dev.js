@@ -43,6 +43,7 @@ const DevConfig = {
     new webpack.NoEmitOnErrorsPlugin(),
     new webpack.ProvidePlugin({ 
       $: 'jquery',
+      _join: ['lodash', 'join'],
     })
   ]
 }
