@@ -1,7 +1,11 @@
 import _ from 'lodash';
 import $ from 'jquery';
-import './style.scss';
+import { ui } from './jquery.ui';
+
+
 
 const ele = $('<div>');
 ele.html(_.join(['hello', 'world'], '__'));
 $('body').append(ele);
+
+ui();

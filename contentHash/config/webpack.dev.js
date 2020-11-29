@@ -8,13 +8,13 @@ const DevConfig = {
   devtool: 'eval-cheap-module-source-map',
   output: {
     path: paths.dist,
-    filename: '[name].bundle.js',
+    filename: '[name].js',
     chunkFilename: '[name].js',
   },
   module: {
     rules: [
       {
-        test: /\.s[c|a]ss|css$/,
+        test: /\.scss|css$/,
         use: [
           'style-loader',
           { 
@@ -23,24 +23,27 @@ const DevConfig = {
               importLoaders: 2
             }
           },
-          'postcss-loader',
+          { loader: 'postcss-loader', options: { sourceMap: true } },
           'sass-loader',
         ]
       }
     ]
   },
   devServer: {
-    contentBase: paths.dist,
     historyApiFallback: true,
+    contentBase: paths.dist,
     open: true,
     compress: true,
     hot: true,
-    port: 3000,
+    port: 8080,
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     //减少不需要的信息展示
-    new webpack.NoEmitOnErrorsPlugin()
+    new webpack.NoEmitOnErrorsPlugin(),
+    new webpack.ProvidePlugin({ 
+      $: 'jquery',
+    })
   ]
 }
 
