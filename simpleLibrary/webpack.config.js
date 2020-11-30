@@ -2,6 +2,15 @@ const { resolve } = require('path');
 module.exports = {
   mode: 'production',
   entry: resolve(__dirname, 'src'),
+  // 打包时所排出的文件
+  // externals: {
+  //   lodash: {
+  //     commonjs: 'lodash', // 用户在使用当前库如果使用commonjs引入lodash则必须命名为lodash
+  //     amd: 'lodash', // amd方式引入
+  //     root: '_' // 通过script标签进行引入时，必须将lodash挂载到_变量上
+  //   }
+  // },
+  externals: 'lodash',
   output: {
     path: resolve(__dirname, 'dist'),
     filename: 'library.js',
