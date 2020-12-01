@@ -14,7 +14,7 @@ const BaseConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'learn cacheing',
+      title: 'learn pwa configuration',
       template: `${paths.src}/index.html`,
       filename: 'index.html', // output file
     }),
@@ -25,6 +25,16 @@ const BaseConfig = {
     usedExports: true,
     splitChunks: {
       chunks: 'all',
+      cacheGroups: {
+        defaultVendors: {
+          // 检测引入的库是否在node_modules中，这时就属于defaultVendors组
+          //,这时打包的文件就会带有defaultVendors-node_moduls_引入组件名
+          test: /[\\/]node_modules[\\/]/,
+          priority: -10,
+          reuseExistingChunk: true,
+          filename: 'vendors.js', // 将引入的文件单独打包成vendor.js
+        },
+      }
     }
   },
 }

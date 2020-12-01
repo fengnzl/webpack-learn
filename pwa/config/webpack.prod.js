@@ -3,6 +3,7 @@ const BaseConfig = require('./webpack.common');
 const { merge } = require('webpack-merge');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const WorkBoxPlugin = require('workbox-webpack-plugin');
 
 const DevConfig = {
   mode: 'production',
@@ -45,6 +46,10 @@ const DevConfig = {
       filename: '[name].[contenthash].css',
       chunkFilename: '[id].[contenthash].css',
     }),
+    new WorkBoxPlugin.GenerateSW({
+      skipWaiting: true,
+      clientsClaim: true,
+    })
   ]
 }
 

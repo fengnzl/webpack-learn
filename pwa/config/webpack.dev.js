@@ -17,9 +17,7 @@ const DevConfig = {
         test: `${paths.src}/index.js`,
         use: [
           'babel-loader',
-          'imports-loader?wrapper=window',
         ]
-
       },
       {
         test: /\.scss|css$/,
