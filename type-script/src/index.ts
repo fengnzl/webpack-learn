@@ -1,8 +1,8 @@
-
+import join from 'lodash/join';
 class Greet{
   constructor(public message: string) { }
   sayHello (): void {
-    console.log('hello' + this.message);
+    console.log(join(['hello', ' ', this.message], ''));
   }
 }
 
