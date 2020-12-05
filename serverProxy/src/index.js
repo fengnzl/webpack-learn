@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 // import axios from 'axios';
-import { Page } from './page';
+import { Page } from 'pageAlias';
 import { List } from './list';
 import { BrowserRouter, Route } from 'react-router-dom';
  
