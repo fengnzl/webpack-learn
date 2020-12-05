@@ -1,7 +1,5 @@
-const { dist, src, public: publicFolder } = require('./paths');
-const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const { dist, src } = require('./paths');
+const plugins = require('./webpack.common.plugins');
 
 const BaseConfig = {
   entry: {
@@ -29,27 +27,7 @@ const BaseConfig = {
       { test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: 'asset/inline' },
     ]
   },
-  plugins: [
-    new webpack.ProgressPlugin(),
-    new HtmlWebpackPlugin({
-      template: `${src}/index.html`,
-      title: 'final configuration',
-      filename: 'index.html', // output file
-      favicon: `${src}/images/favicon.png`,
-    }),
-    // Copies files from target to destination folder
-    new CopyWebpackPlugin({
-      patterns: [
-        {
-          from: publicFolder,
-          to: 'assets',
-          globOptions: {
-            ignore: ['*.DS_Store'],
-          },
-        },
-      ],
-    }),
-  ]
+  plugins
 }
 
 module.exports = BaseConfig;

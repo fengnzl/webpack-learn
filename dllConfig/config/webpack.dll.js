@@ -1,5 +1,6 @@
 const { resolve } = require('path');
 const webpack = require('webpack');
+const { dll } = require('./paths');
 
 module.exports = {
   mode: 'production',
@@ -7,14 +8,14 @@ module.exports = {
     vendors: ['lodash']
   },
   output: {
-    path: resolve(__dirname, '../dll'),
+    path: dll,
     filename: '[name].dll.js',
     library: '[name]',
   },
   plugins: [
     new webpack.DllPlugin({
       name: '[name]',
-      path: resolve(__dirname, '../dll/[name].manifest.json'),
+      path: `${dll}/[name].manifest.json`,
     })
   ]
 }
