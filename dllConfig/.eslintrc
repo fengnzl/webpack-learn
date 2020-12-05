@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "prettier"
+  ],
+  "plugins": [],
+  "parserOptions": {
+    "ecmaVersion": 2020, // ecma script 版本，2019年发布的
+    "sourceType": "module", // 支持export和import
+    "ecmaFeatures": {
+      "jsx": true // 使用jsx
+    }
+  },
+  "env": {
+    "es6": true, // 支持es6语法
+    "browser": true, // 支持browser api
+    "node": true // 支持node
+  }
+}
