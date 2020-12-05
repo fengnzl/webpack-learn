@@ -12,6 +12,12 @@ const DevConfig = {
     contentBase: dist,
     open: true,
     compress: true,
+    // historyApiFallback: true, // 单页应用路由设置，否则访问/list页面服务器会认为是从服务器获取，从而无法正常展示页面
+    historyApiFallback: { // 对路由进行精确转发设置
+      rewrites: [
+        { from: /\/\w/, to: '/index.html' },
+      ]
+    },
     proxy: {
       '/react/api': {
         target: 'http://www.dell-lee.com',
