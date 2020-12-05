@@ -7,6 +7,7 @@ const DevConfig = {
   mode: 'development',
   devtool: 'eval-cheap-module-source-map',
   devServer: {
+    overlay: true, // 打包出现错误时在浏览器上显示错误
     port: 3000,
     hot: true,
     contentBase: dist,

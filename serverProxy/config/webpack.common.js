@@ -13,7 +13,7 @@ const BaseConfig = {
   },
   module: {
     rules: [
-      { test:/\.js$/, exclude: /node_modules/, loader: "babel-loader" }
+      { test:/\.js$/, exclude: /node_modules/, use: ['babel-loader', 'eslint-loader'] },
     ]
   },
   plugins: [
