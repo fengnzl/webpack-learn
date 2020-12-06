@@ -1,9 +1,10 @@
 const { dist, src } = require('./paths');
-const plugins = require('./webpack.common.plugins');
+const { plugins, generateHtmlPlugins } = require('./webpack.common.plugins');
 
 const BaseConfig = {
   entry: {
-    main: `${src}/index.js`
+    main: `${src}/index.js`,
+    list: `${src}/list.js`,
   },
   output: {
     path: dist,
@@ -27,7 +28,8 @@ const BaseConfig = {
       { test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: 'asset/inline' },
     ]
   },
-  plugins
 }
+
+BaseConfig.plugins = [...plugins, ...generateHtmlPlugins(BaseConfig)];
 
 module.exports = BaseConfig;
