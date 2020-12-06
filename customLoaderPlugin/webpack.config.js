@@ -31,7 +31,7 @@ module.exports = {
   },
   plugins: [
     new CopyRightPlugin({
-      title: 'this is recoveryMonster',
+      content: 'this is recoveryMonster',
     })
   ]
 }
