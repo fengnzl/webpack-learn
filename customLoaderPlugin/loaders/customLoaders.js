@@ -4,7 +4,7 @@
 // 使用getOptions来获取配置的option参数, 此时需要安装loder-utils npm i loader-utils --save-dev 与this.query 不能同时使用
 const loaderUtils = require('loader-utils');
 module.exports = function (source) {
-  console.log(loaderUtils.getOptions(this));
+  // console.log(loaderUtils.getOptions(this));
   // const options = loaderUtils.getOptions(this);
   // const { replaceStr } = this.query;
   // return source.replace('Recovery', options.replaceStr);

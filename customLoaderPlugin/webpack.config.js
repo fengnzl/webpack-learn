@@ -1,4 +1,5 @@
 const { resolve } = require('path');
+const CopyRightPlugin = require('./plugins/copyright-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -27,5 +28,10 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+  plugins: [
+    new CopyRightPlugin({
+      title: 'this is recoveryMonster',
+    })
+  ]
 }
