@@ -5,7 +5,8 @@
 const loaderUtils = require('loader-utils');
 module.exports = function (source) {
   console.log(loaderUtils.getOptions(this));
-  const options = loaderUtils.getOptions(this);
+  // const options = loaderUtils.getOptions(this);
   // const { replaceStr } = this.query;
-  return source.replace('Recovery', options.replaceStr);
+  // return source.replace('Recovery', options.replaceStr);
+  this.callback(null, source.replace('recoveryMonster', 'World'))
 }

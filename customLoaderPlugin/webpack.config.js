@@ -17,8 +17,9 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: [
+          'customLoaders',
           {
-            loader: 'customLoaders',
+            loader: 'customLoadersAsync',
             options: {
               replaceStr: 'recoveryMonster',
             }
