@@ -13,7 +13,18 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.js$/, exclude: /node_modules/, use: ['customLoaders'] }
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'customLoaders',
+            options: {
+              replaceStr: 'recoveryMonster',
+            }
+          }
+        ]
+      }
     ]
   }
 }
