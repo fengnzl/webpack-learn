@@ -59,5 +59,28 @@ const makeDependenciesGraph = (entry) => {
   return graph;
 }
 
-const moduleInfo = makeDependenciesGraph('./src/index.js');
-console.log(moduleInfo)
+const generateCode = (entry) => {
+  const graph = JSON.stringify(makeDependenciesGraph(entry));
+  // 返回一个闭包函数，避免污染全局变量
+  return `
+    (function(graph){
+      function require(module) {
+        // 当执行到依赖模块时，./message.js 要返回相对打包文件的执行
+        function localRequire(relativePath) {
+          return require(graph[module].dependencies[relativePath]);
+        }
+        const exports = {};
+        (function evalCode(require, exports, code){
+          // 执行代码
+          eval(code);
+        })(localRequire, exports, graph[module].code);
+        return exports;
+      }
+      // 执行入口代码
+      require('${entry}');
+    })(${graph})
+  `
+}
+
+const code = generateCode('./src/index.js');
+eval(code);

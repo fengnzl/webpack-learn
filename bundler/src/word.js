@@ -1,3 +1,3 @@
-const word = 'hello';
+const word = 'world';
 
 export { word };
