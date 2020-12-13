@@ -21,9 +21,10 @@ const moduleAnalysers = (filename) => {
       const importFilePath = node.source.value;
       // 获取入口文件所在文件夹名称
       const dirname = path.dirname(filename);
-      // 获取引入模块相对打包文件的路径
+      // 获取引入模块相对打包文件的路径 由于windows环境下
+      // path 解析出来时会造成应用层面的问题，因此需要使用path.sep获取当前系统的分隔符
       const newFile = './' + path.join(dirname, importFilePath);
-      dependencies[importFilePath] = newFile;
+      dependencies[importFilePath] = newFile.split(path.sep).join('/');
     }
   })
   // 将ast转换为浏览器可执行的代码
@@ -38,5 +39,22 @@ const moduleAnalysers = (filename) => {
   }
 }
 
-const moduleInfo = moduleAnalysers('./src/index.js');
-console.log(moduleInfo);
+// 依赖图谱
+const makeDependenciesGraph = (entry) => {
+  const moduleInfo = moduleAnalysers(entry);
+  const graphArray = [moduleInfo];
+  for (let i = 0; i < graphArray.length; i++) {
+    const { dependencies } = graphArray[i] || {};
+    if (dependencies) {
+      Object.values(dependencies).forEach((dependencyPath) => {
+        graphArray.push(moduleAnalysers(dependencyPath));
+      })
+    }
+  }
+  return graphArray.map(item => {
+    const { dependencies, code } = item;
+    return { dependencies, code };
+  })
+}
+
+const moduleInfo = makeDependenciesGraph('./src/index.js');
