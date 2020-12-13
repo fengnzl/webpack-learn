@@ -7,5 +7,6 @@ function isEmptyObject (object) {
 }
 
 export {
-  
+  isObject,
+  isEmptyObject
 }

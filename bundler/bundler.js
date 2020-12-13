@@ -51,10 +51,13 @@ const makeDependenciesGraph = (entry) => {
       })
     }
   }
-  return graphArray.map(item => {
-    const { dependencies, code } = item;
-    return { dependencies, code };
+  const graph = {};
+  graphArray.forEach(item => {
+    const { dependencies, code, filename } = item;
+    graph[filename] = { dependencies, code };
   })
+  return graph;
 }
 
 const moduleInfo = makeDependenciesGraph('./src/index.js');
+console.log(moduleInfo)
